@@ -1,0 +1,43 @@
+.vendor-container {
+  background-color: #ffffff;
+}
+.vendor-heading {
+  color: #000000;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.vendor-image {
+  border-radius: 50%;
+  width: 50px;
+}
+.vendor-span-name {
+  margin-left: 12px;
+  font-size: 15px;
+}
+.vendor-span-desig {
+  margin-left: 4px;
+  font-size: 13px;
+}
+.menue-icon {
+  width: 25px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.menue-drop-down {
+  margin-right: 120px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #fbb03b;
+  border: 1px solid #fbb03b;
+  text-align: center;
+  width: 50px;
+  border-radius: 0px;
+}
+.menue-drop-down:hover {
+  border: 1px solid #fbb03b;
+  color: #ffffff;
+  background-color: #fbb03b;
+}

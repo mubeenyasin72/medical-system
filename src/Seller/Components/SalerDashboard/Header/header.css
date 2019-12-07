@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  .navbar-link-margin {
+    margin-left: 10%;
+  }
+}
+.header-dropdown-menue {
+  border-radius: 0px;
+  border: 1px solid #efc654;
+}
+.header-dropdown-item {
+  color: #efc654;
+}
+.header-dropdown-item:hover {
+  color: #ffffff;
+  background-color: #efc654;
+}
+.navbar-link-style {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.navbar-link-style:hover {
+  /* background-color: #c7a546; */
+  color: #ffffff;
+}
+
+.navbar-profile {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -5px 5px 0 0;
+}

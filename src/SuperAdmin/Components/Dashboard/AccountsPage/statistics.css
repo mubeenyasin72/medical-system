@@ -1,0 +1,98 @@
+.ml-0{
+    margin-left: 0;
+}
+
+.stat-chart-title-border{
+    border-bottom: 2px solid #83BEDF;
+}
+
+.stat-chart-color-dot-desktop{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #935CCB;
+    float: left;
+}
+
+.stat-chart-color-dot-laptop{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #43E0AA;
+    float: left;
+}
+
+.stat-chart-color-dot-mobile{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #24AEFC;
+    float: left;
+}
+
+.stat-chart-dot-text{
+    font-size: 15px;
+    margin: 0px 0 0 10px;
+}
+
+.stat-chart-color-box{
+    width: 15px;
+    height: 15px;
+    background-color: #935CCB;
+    float: left;
+}
+
+.stat-chart-box-text{
+    font-size: 15px;
+    margin: -4px 0 0 10px;
+}
+
+.stat-chart-box-bottom-text{
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    margin: -5px 0 0 25px;
+}
+
+.stat-chart-box-container{
+    margin: 20% 0;
+}
+
+.stat-amount-underline{
+    border-bottom: 2px solid #83BEDF;
+    margin: 0 0 0 50px;
+}
+
+.stat-amount-box{
+    width: 30px;
+    height: 50px;
+    border: 5px solid #24AEFC;
+    margin: 11px 0 0 40px;
+}
+
+@media only screen and (max-width: 767px){
+    .stat-chart-dot-text{
+        float: right;
+        font-size: 13px;
+        margin-top: -5px;
+    }
+    .stat-chart-box-container{
+        margin: 10% 0;
+    }
+    .stat-chart-color-box{
+        width: 10px;
+        height: 10px;
+    }
+    .stat-chart-box-text{
+        float: right;
+        font-size: 12px;
+        font-weight: 600;
+        margin: -4px 0 0 10px;
+    }
+    .stat-chart-box-bottom-text{
+        float: right;
+        font-size: 16px;
+        font-weight: 700;
+        margin: -5px 0 0 25px;
+    }
+}

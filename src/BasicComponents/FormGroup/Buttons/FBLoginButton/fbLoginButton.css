@@ -1,0 +1,19 @@
+.form-btn-fb-login{
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    background-color: #3B5998;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-btn-fb-login:hover{
+    color: #ffffff;
+}
+
+.form-btn-fb-login-icon{
+    width: 15px;
+    margin: -1px 15px 1px -6px;
+}

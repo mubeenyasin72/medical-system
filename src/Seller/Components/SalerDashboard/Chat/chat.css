@@ -1,0 +1,262 @@
+.bg-chat-bar{
+    background-color: #F0F0FB;
+    /* background-color: transparent; */
+    border-radius: 5px;
+}
+
+.chat-bar-profile{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0 0 5%;
+    background-color: red;
+    background: url('https://images.unsplash.com/flagged/photo-1574877164014-e48c5a4b7e5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+}
+
+.chat-bar-profile-img-active{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #04E013;
+    margin: 70% 0 0 80%;
+    z-index: 1;
+}
+
+.chat-bar-name{
+    bottom: 0;
+    left: 0;
+    top: 10px;
+    position: relative;
+    font-weight: normal;
+}
+
+.chat-bar-latest-msg{
+    font-size: 13px;
+    color: gray;
+}
+
+.chat-bar-more{
+    width: 30px;
+    float: right;
+    position: relative;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+}
+
+.chat-bbar-time{
+    float: right;
+    position: relative;
+    right: 0;
+    top: 5px;
+    color: #B6B9C3;
+}
+
+/* Message Body */
+
+.message-body-chat{
+    width: 100%;
+    height: 100vh;
+}
+
+.message-body-head{
+    line-height: 15px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #9095A4;
+}
+
+.message-body-foot{
+    line-height: 15px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #9095A4;
+}
+
+.message-body-chat-scroll{
+    height: 73vh;
+    overflow-y: scroll;
+}
+
+.message-body-sent{
+    background-color: #F0F0FB;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #9095A4;
+    border-radius: 5px;
+}
+
+.message-body-sent-time{
+    color: #9095A4;
+}
+
+.message-body-receive-text{
+    background-color: #FBB03B;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    /* float: right; */
+}
+
+.message-body-receive-time{
+    color: #9095A4;
+}
+
+.message-body-profile{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    background: url('https://images.unsplash.com/flagged/photo-1574877164014-e48c5a4b7e5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.message-body-profile-img-active{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #04E013;
+    margin: 70% 0 0 80%;
+    z-index: 1;
+}
+
+.message-body-input{
+    border-radius: 10px;
+    border-right: none;
+    height: 42px;
+}
+
+.message-body-send-icon{
+    width: 25px;
+}
+
+.message-body-create-offer-border{
+    border-top: 1px solid #CED4DA;
+    border-bottom: 1px solid #CED4DA;
+}
+
+.message-body-send-border{
+    border-top: 1px solid #CED4DA;
+    border-bottom: 1px solid #CED4DA;
+    border-right: 1px solid #CED4DA;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Create Offer */
+
+.create-offer-head{
+    background-color: #FBB03B
+}
+
+.btn-create-offer{
+    border-radius: 20px;
+    border: 1px solid #FBB03B;
+    color: #FBB03B;
+    height: 30px;
+    margin-top: 4px;
+    line-height: 5px;
+}
+
+.btn-create-offer:hover{
+    color: #FBB03B;
+}
+
+.create-offer-product-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.create-offer-product{
+    border-bottom: 1px solid #ECECEC;
+    cursor: pointer;
+}
+
+.create-offer-top-text{
+    line-height: 20px;
+}
+
+.create-offer-select-btn{
+    border: 1px solid #FBB03B;
+    font-size: 10px;
+    color: #FBB03B;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.create-offer-select-btn:hover{
+    color: #FBB03B;
+}
+
+.create-offer-description{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 20px;
+    border: 1px solid #8A8A8A;
+}
+
+.create-offer-description::placeholder{
+    padding-left: 20px;
+    color: #8A8A8A;
+}
+
+.create-offer-amount-container{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    margin: 3% .1% 0 .1%;
+}
+
+.create-offer-sizes{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin: 5% 0 0 0; */
+}
+
+.create-offer-size{
+    background-color: #ffffff;
+    margin: 0 0 0 20px;
+}
+
+.create-offer-submit{
+    margin: 10% 0 0 0;
+}
+
+.create-offer-back{
+    text-decoration: none;
+    color: #888888;
+    text-align: left;
+}
+
+.create-offer-back:hover{
+    text-decoration: none;
+    color: #888888;
+}
+
+.create-offer-back-icon{
+    width: 12px;
+    margin: -3px 5px 0 0;
+}
+
+.create-offer-submit-btn{
+    background-color: #FBB03B;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.create-offer-submit-btn:hover{
+    color: #FFFFFF;
+    
+}

@@ -1,0 +1,33 @@
+.stat-view-container{
+    background: #F2F3F7;
+    background-size: 100vh;
+    overflow-x: hidden;
+}
+
+.stat-view-title{
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 768px){
+    .stat-view-amount{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .stat-view-amount{
+        margin-top: 5%;
+    }
+}
+
+/* @media only screen and (min-width: 992px){
+    .stat-view-chart{
+        margin-left: 5%;
+    }
+} */
+
+@media only screen and (max-width: 991px){
+    .stat-view-chart{
+        margin-top: 5%;
+    }
+}

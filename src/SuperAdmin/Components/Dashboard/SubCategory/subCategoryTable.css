@@ -1,0 +1,15 @@
+.sub-category-actions {
+  cursor: pointer;
+}
+.sub-category-menu {
+  border: 1px solid #fbb03b;
+  border-radius: 0px;
+}
+.sub-category-menu-item {
+  color: #fbb03b;
+}
+.sub-category-menu-item:hover {
+  background-color: #fbb03b;
+  color: #ffffff;
+  cursor: pointer;
+}

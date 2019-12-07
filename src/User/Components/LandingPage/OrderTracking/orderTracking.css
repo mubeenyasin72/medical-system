@@ -1,0 +1,125 @@
+.section {
+  background: #ffffff;
+  padding: 5em 0;
+  /* border-bottom: 3px solid #ddd; */
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 230px;
+}
+.track-your-order {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fbb03b;
+  z-index: 999999;
+}
+.trackingbutton {
+  font-size: 2em !important;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-left: 4em;
+}
+.dashed {
+  width: 100%;
+  margin: auto;
+  border-bottom: 3px dashed transparent;
+  position: relative;
+  margin: auto;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #fbb03b;
+  border-radius: 50%;
+  margin-bottom: -0.7em;
+  position: relative;
+  /* &:after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 3px;
+      background-color: #008cff;
+      position: absolute;
+      bottom: 8.5px;
+    } */
+}
+.circle-c {
+  position: absolute;
+  left: 18%;
+  top: 1%;
+}
+.special {
+  position: absolute;
+  left: 36%;
+  top: -180%;
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+}
+.fa-male {
+  text-align: center;
+  width: 100%;
+  padding-top: 9px;
+}
+.sc {
+  background-color: #fbb03b !important;
+}
+.special-o {
+  left: 58%;
+}
+.fa-truck {
+  width: 100%;
+  text-align: center;
+  padding-top: 9px;
+  padding-right: 4px;
+}
+.specia-s {
+  left: 500%;
+  top: 0;
+}
+.fa-shopping-bag {
+  width: 100%;
+  padding-top: 6px;
+}
+.description {
+  width: 100%;
+}
+.title .title-i {
+  position: relative;
+  left: -3.3%;
+}
+.title .title-ii {
+  padding-left: 0.2em;
+}
+.title .title-iii {
+  padding-left: 1.7em;
+}
+.title .title-iiii {
+  padding-left: 2.8em;
+}
+.title .title-iiiii {
+  font-size: 13px;
+  padding-left: 5.5em;
+}
+.title p {
+  font-weight: normal;
+  float: left;
+}
+.span {
+  font-size: 11px;
+  text-align: center;
+  color: #aaa;
+}
+.border-s {
+  width: 84%;
+  border-bottom: 3px dashed #ddd;
+  position: relative;
+  top: 12px;
+}

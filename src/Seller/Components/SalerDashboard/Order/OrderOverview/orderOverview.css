@@ -1,0 +1,11 @@
+.table-view-thead{
+    background-color: #F7F8FA;
+}
+
+.table-view-th{
+    font-weight: normal;
+}
+
+.table-view-cursor-pointer{
+    cursor: pointer;
+}

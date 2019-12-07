@@ -1,0 +1,88 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  background: url("../../Assets/Images/background.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: blur(10px) !important;
+  -o-filter: blur(10px) !important;
+  -ms-filter: blur(10px) !important;
+  -moz-filter: blur(10px) !important;
+  -webkit-filter: blur(10px) !important;
+}
+
+.login-container {
+  border: 1px solid #fbb03b;
+  border-radius: 10px;
+  position: relative;
+  filter: blur(0px) !important;
+  -o-filter: blur(0px) !important;
+  -ms-filter: blur(0px) !important;
+  -moz-filter: blur(0px) !important;
+  -webkit-filter: blur(0px) !important;
+  top: -100%;
+}
+
+.login-description-text {
+  width: 60%;
+}
+
+.login-checkbox-forgot-container {
+  width: 88%;
+  margin: 1.5% auto;
+  height: 35px;
+  color: #ffffff;
+}
+
+.login-checkbox-input {
+  width: 25px;
+  height: 25px;
+  margin: -1px 0 0 -16px;
+}
+
+.login-checkbox-label-text {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+}
+
+.login-forgot-text {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.login-fb-gmail-container {
+  width: 88%;
+  margin: auto;
+}
+
+.login-sign-in-container {
+  width: 88%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .login-description-text {
+    width: 80%;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .login-checkbox-label-text {
+    font-size: 9px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 3px 0 0 10px;
+  }
+
+  .login-forgot-text {
+    font-size: 9px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+}

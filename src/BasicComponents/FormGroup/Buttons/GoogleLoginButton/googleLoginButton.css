@@ -1,0 +1,19 @@
+.form-btn-google-login{
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+.form-btn-google-login:hover{
+    color: #000000;
+}
+
+.form-btn-google-login-icon{
+    width: 15px;
+    margin: -1px 15px 1px 0;
+}

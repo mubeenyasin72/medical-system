@@ -1,0 +1,27 @@
+.user-login-view-adjust{
+    margin: -1% 0 0 0;
+}
+
+@media only screen and (max-width: 767px){
+    .user-login-view-adjust{
+        padding: 2% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 376px){
+    .user-login-view-adjust{
+        margin: -15% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 350px){
+    .user-login-view-adjust{
+        padding: 8% 0 0 0;
+    }
+    .user-login-view-container{
+        height: 120vh;
+    }
+    
+}

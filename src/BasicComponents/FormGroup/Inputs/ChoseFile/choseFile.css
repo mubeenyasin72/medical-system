@@ -1,0 +1,14 @@
+.chose-file-label{
+    background: #825A1E;
+    border-radius: 25px;
+    height: 40px;
+    margin: auto auto -2% auto;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.chose-file-icon{
+    width: 20px;
+    height: 20px;
+    float: right;
+}

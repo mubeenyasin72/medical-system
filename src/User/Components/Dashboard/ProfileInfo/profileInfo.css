@@ -1,0 +1,36 @@
+.user-profile-info-profile-body{
+    height: 80vh;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+}
+
+.user-profile-info-profile-img{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.user-profile-info-profile-img-upload-btn{
+    background-color: #FBB03B;
+    /* height: 30px; */
+    margin: auto;
+}
+
+.user-profile-info-edit-btn{
+    background-color: #DBDBDB;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-weight: 500;
+}
+
+.user-profile-info-label-text-top{
+    color: #989898;
+}
+
+.user-profile-info-label-text-bottom{
+    font-size: 18px;
+    line-height: 35px;
+    color: #989898;
+}

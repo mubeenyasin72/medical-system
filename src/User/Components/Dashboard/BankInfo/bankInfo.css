@@ -1,0 +1,111 @@
+.user-bank-info-profile-body{
+    height: 80vh;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+}
+
+.user-bank-info-visa-card-body{
+    border: 1px solid #FBB03B;
+    border-radius: 10px;
+    background-color: #FCE9CB;
+}
+
+.user-bank-info-card-icons{
+    margin-bottom: -20px;
+}
+
+.user-bank-info-card-title{
+    margin: -20px 0 0 0;
+    text-align: center;
+}
+
+.user-bank-info-card-visa-icon{
+    width: 50px;
+    text-align: center;
+}
+
+.user-bank-info-card-master-icon{
+    width: 40px;
+    margin: 5px 0 0 0;
+
+}
+
+
+.user-bank-info-label-text-top{
+    color: #989898;
+}
+
+.user-bank-info-label-text-bottom{
+    font-size: 18px;
+    line-height: 35px;
+    color: #989898;
+}
+
+.user-bank-info-paypal-body{
+    /* border: 1px solid #FBB03B; */
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.user-bank-info-paypal-icons{
+    margin-bottom: -52px;
+}
+
+.user-bank-info-paypal-icon{
+    height: 20px;
+    margin  :  0 0 -35px 0;
+}
+
+.user-bank-info-paypal-text{
+    width: 100px;
+    margin  :  -17px 0 0 0;
+}
+
+.user-bank-info-card-info-body{
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    height: 200px;
+}
+
+.user-bank-info-card-info-input-label{
+    color: #9E9E9E;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: -10px !important;
+}
+
+.user-bank-info-card-info-input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.user-bank-info-card-info-input:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.user-bank-info-card-info-input::placeholder{
+    color: #D5D5D5;
+}
+
+.user-bank-info-card-cvv-empty-row{
+    background-color: #F1F1F1;
+    width: 380px;
+    /* margin-left: -35px; */
+    height: 40px;
+}
+
+.user-bank-info-card-info-btn{
+    color: #ffffff;
+    background-color: #FBB03B;
+    width: 130px;
+}
+
+.user-bank-info-card-info-btn:hover{
+    color: #ffffff;
+}

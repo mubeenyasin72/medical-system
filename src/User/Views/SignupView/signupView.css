@@ -1,0 +1,27 @@
+.user-signup-view-adjust{
+    margin: -1% 0 0 0;
+}
+
+@media only screen and (max-width: 767px){
+    .user-signup-view-adjust{
+        padding: 2% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 376px){
+    .user-signup-view-adjust{
+        margin: -15% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 350px){
+    .user-signup-view-adjust{
+        padding: 8% 0 0 0;
+    }
+    .user-signup-view-container{
+        height: 120vh;
+    }
+    
+}

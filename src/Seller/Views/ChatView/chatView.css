@@ -1,0 +1,4 @@
+.chat-view-contact-scroll{
+    overflow-y: scroll;
+    height: 100vh;
+}

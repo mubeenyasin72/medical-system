@@ -1,0 +1,39 @@
+.user-form-input {
+  background: transparent;
+  border-radius: 25px;
+  height: 40px;
+  margin: auto;
+  padding-left: 18px;
+}
+
+.user-form-input::placeholder {
+  padding-left: 18px;
+  color: #9b9b9b;
+  font-weight: 600;
+}
+
+.user-form-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 14px;
+  padding-left: 18px;
+  color: #9b9b9b;
+  font-weight: 600;
+}
+.user-form-input::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-left: 18px;
+  color: #9b9b9b;
+  font-weight: 600;
+}
+.user-form-input:-ms-input-placeholder {
+  /* IE 10+ */
+  padding-left: 18px;
+  color: #9b9b9b;
+  font-weight: 600;
+}
+.user-form-input:-moz-placeholder {
+  /* Firefox 18- */
+  padding-left: 18px;
+  color: #9b9b9b;
+  font-weight: 600;
+}

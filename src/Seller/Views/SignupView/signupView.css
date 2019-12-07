@@ -1,0 +1,39 @@
+.signup-view-container{
+    background: url('../../../Assets/Images/background.png');
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100vh;
+    /* filter:blur(1px);
+    -o-filter:blur(1px);
+    -ms-filter:blur(1px);
+    -moz-filter:blur(1px);
+    -webkit-filter:blur(1px); */
+}
+
+.signup-view-adjust{
+    padding: 5% 0 0 0;
+}
+
+@media only screen and (max-width: 767px){
+    .signup-view-adjust{
+        padding: 10% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 376px){
+    .signup-view-adjust{
+        padding: 25% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 350px){
+    .signup-view-adjust{
+        padding: 8% 0 0 0;
+    }
+    .signup-view-container{
+        height: 120vh;
+    }
+    
+}

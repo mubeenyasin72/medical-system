@@ -1,0 +1,65 @@
+.signup-container{
+    /* border: 1px solid #FBB03B; */
+    border-radius: 10px;
+    /* position: relative;
+    filter:blur(0px) !important;
+    -o-filter:blur(0px) !important;
+    -ms-filter:blur(0px) !important;
+    -moz-filter:blur(0px) !important;
+    -webkit-filter:blur(0px) !important;
+    top: -100%; */
+}
+
+.signup-checkbox-input{
+    width: 25px;
+    height: 25px;
+    margin: -1px 0 0 -16px;
+}
+
+.signup-checkbox-label-text{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+}
+
+.signup-checkbox-upper-label{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.signup-checkbox-input{
+    width: 25px;
+    height: 25px;
+    margin: -1px 0 0 -16px;
+}
+
+.signup-checkbox-label-text{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+
+.signup-member-text{
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 900px){
+    .signup-checkbox-label-text{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .signup-warehouse-input-margin{
+        margin-top: 5.5%;
+    }
+    .signup-checkbox-label-text{
+        font-size: 12px;
+    }
+}

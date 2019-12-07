@@ -1,0 +1,39 @@
+.login-view-container{
+    background: url('../../../Assets/Images/background.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* filter:blur(1px);
+    -o-filter:blur(1px);
+    -ms-filter:blur(1px);
+    -moz-filter:blur(1px);
+    -webkit-filter:blur(1px); */
+}
+
+.login-view-adjust{
+    padding: 5% 0 0 0;
+}
+
+@media only screen and (max-width: 767px){
+    .login-view-adjust{
+        padding: 10% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 376px){
+    .login-view-adjust{
+        padding: 25% 0 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 350px){
+    .login-view-adjust{
+        padding: 8% 0 0 0;
+    }
+    .login-view-container{
+        height: 120vh;
+    }
+    
+}

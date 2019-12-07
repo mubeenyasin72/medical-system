@@ -1,0 +1,13 @@
+.user-sidebar-row{
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.user-sidebar-profile{
+    width: 30px;
+}
+
+.user-sidebar-row-text{
+    color: #A4A4A4;
+}

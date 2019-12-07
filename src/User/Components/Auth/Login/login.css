@@ -1,0 +1,27 @@
+.login-description-text{
+    width: 60%;
+}
+
+.login-checkbox-input{
+    width: 25px;
+    height: 25px;
+    margin: -1px 0 0 -16px;
+}
+
+.login-checkbox-label-text{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+
+.login-forgot-text{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.login-member-signup{
+    font-size: 15px;
+    font-weight: 700;
+}

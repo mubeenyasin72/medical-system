@@ -1,0 +1,27 @@
+.category-card {
+  width: 500px;
+  left: 30%;
+  top: 10%;
+  /* transform: translate(-10%, -30%); */
+}
+.category-input {
+  border-radius: 35px;
+  padding: 18px;
+  border: 1px solid #fbb03b;
+  color: #fbb03b;
+}
+.category-input::placeholder {
+  color: #fbb03b;
+  outline: none;
+}
+.category-btn {
+  color: "#1C1004";
+  border-radius: 35px;
+  border: 1px solid #fbb03b;
+  background-color: #fbb03b;
+  color: #ffffff;
+  padding: 11px;
+  font-size: 24px;
+}
+/* .category-btn:hover {
+} */

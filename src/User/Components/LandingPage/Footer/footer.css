@@ -1,0 +1,13 @@
+
+@media only screen   and (max-width:600px){
+    .div-class{
+        text-align: center;
+    }
+}
+.images{
+    float:right;
+    margin-right:22px;
+    background-color:white;
+    padding:9px;
+    border-radius:50%;
+}

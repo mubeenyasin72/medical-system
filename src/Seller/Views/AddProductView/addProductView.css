@@ -1,0 +1,16 @@
+.add-product-view-container{
+    background: #F2F3F7;
+    background-size: 100vh;
+    overflow-x: hidden;
+}
+
+.add-product-view-title{
+    color: #333333;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 767px){
+    .add-product-view-title{
+        margin-left: 15px;
+    }
+}

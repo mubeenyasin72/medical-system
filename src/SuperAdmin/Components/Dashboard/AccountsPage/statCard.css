@@ -1,0 +1,18 @@
+.stat-card {
+  width: 240px;
+  height: 150px;
+  min-width: 240px;
+}
+.stat-hr {
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 4px;
+  background-color: #87bdda;
+  height: 1.5px;
+  border-radius: 30%;
+}
+.stat-span {
+  font-size: 39px;
+  margin: 8px 0px 0px 25px;
+  position: absolute;
+}

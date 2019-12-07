@@ -1,0 +1,28 @@
+.order-over-view-container {
+  background: #f2f3f7;
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.order-over-view-title {
+  color: #333333;
+  font-weight: normal;
+  margin: 0px 0px 0px 10px;
+}
+
+.order-over-view-filter-text {
+  font-size: 12px;
+  text-align: center;
+  color: #b8b9bb;
+}
+
+.order-over-view-border-right {
+  border-right: 1px solid #b8b9bb;
+}
+
+@media only screen and (max-width: 767px) {
+  .order-over-view-title {
+    margin-left: 15px;
+  }
+}
