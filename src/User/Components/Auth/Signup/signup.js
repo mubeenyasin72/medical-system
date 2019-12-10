@@ -67,7 +67,7 @@ class Signup extends Component {
                         value="something"
                       />
                       <div class="signup-checkbox-label-text">
-                        I agree to the Terms of Service and Privacy Policy
+                        I agree with the terms and policy
                       </div>
                     </label>
                   </div>
@@ -86,14 +86,12 @@ class Signup extends Component {
                 <div class="col-12 text-center"></div>
               </div>
               <div class="row mt-3 pb-5">
-                <div class="col-1 col-sm-2 col-md-2 col-lg-3 col-xl-2"></div>
-                <div class="col-10 col-sm-8 col-md-8 col-lg-6 col-xl-8 signup-member-text">
+                <div class="col-12 signup-member-text">
                   Are you already a member?&nbsp;&nbsp;
                   <Link to="/User/Login">
                     <b>SignIn</b>
                   </Link>
                 </div>
-                <div class="col-1 col-sm-2 col-md-2 col-lg-3 col-xl-2"></div>
               </div>
             </div>
             <div class="col-1"></div>

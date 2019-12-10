@@ -50,7 +50,7 @@ class Login extends Component {
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-10 col-xl-10 col-xl-10">
               <div class="row">
-                <div class="col-6">
+                <div class="col-12">
                   <div class="form-check">
                     <label class="form-check-label" for="check1">
                       <input
@@ -60,9 +60,7 @@ class Login extends Component {
                         name="option1"
                         value="something"
                       />
-                      <div class="login-checkbox-label-text">
-                        Keep me signed in
-                      </div>
+                      <div class="login-checkbox-label-text">Remember me</div>
                     </label>
                   </div>
                 </div>

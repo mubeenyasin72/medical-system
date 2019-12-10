@@ -28,14 +28,13 @@ class Header extends Component {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown navbar-link-margin">
-                <a
+                <span
+                  style={{ cursor: "pointer" }}
                   class="nav-link dropdown-toggle navbar-link-style navbar-link-style"
-                  href="#"
-                  id="navbarDropdown"
                   data-toggle="dropdown"
                 >
                   Products
-                </a>
+                </span>
                 <div
                   class="dropdown-menu header-dropdown-menue"
                   aria-labelledby="navbarDropdown"
@@ -55,14 +54,13 @@ class Header extends Component {
                 </div>
               </li>
               <li class="nav-item dropdown navbar-link-margin">
-                <a
+                <span
+                  style={{ cursor: "pointer" }}
                   class="nav-link dropdown-toggle navbar-link-style"
-                  href="#"
-                  id="navbarDropdown"
                   data-toggle="dropdown"
                 >
                   Orders
-                </a>
+                </span>
                 <div
                   class="dropdown-menu header-dropdown-menue"
                   aria-labelledby="navbarDropdown"
@@ -82,14 +80,13 @@ class Header extends Component {
                 </div>
               </li>
               <li class="nav-item dropdown navbar-link-margin">
-                <a
+                <span
+                  style={{ cursor: "pointer" }}
                   class="nav-link dropdown-toggle navbar-link-style"
-                  href="#"
-                  id="navbarDropdown"
                   data-toggle="dropdown"
                 >
                   Promotions
-                </a>
+                </span>
                 <div
                   class="dropdown-menu header-dropdown-menue"
                   aria-labelledby="navbarDropdown"
@@ -103,14 +100,13 @@ class Header extends Component {
                 </div>
               </li>
               <li class="nav-item dropdown navbar-link-margin">
-                <a
+                <span
+                  style={{ cursor: "pointer" }}
                   class="nav-link dropdown-toggle navbar-link-style"
-                  href="#"
-                  id="navbarDropdown"
                   data-toggle="dropdown"
                 >
                   Finance
-                </a>
+                </span>
                 <div
                   class="dropdown-menu header-dropdown-menue"
                   aria-labelledby="navbarDropdown"
@@ -131,10 +127,9 @@ class Header extends Component {
               </li>
             </ul>
             <div class="nav-item dropdown">
-              <a
+              <span
+                style={{ cursor: "pointer" }}
                 class="nav-link dropdown-toggle navbar-link-style"
-                href="#"
-                id="navbarDropdown"
                 data-toggle="dropdown"
               >
                 <img
@@ -143,7 +138,7 @@ class Header extends Component {
                   src="https://images.unsplash.com/photo-1574621100236-d25b64cfd647?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                 />
                 Profile
-              </a>
+              </span>
               <div
                 class="dropdown-menu header-dropdown-menue"
                 aria-labelledby="navbarDropdown"

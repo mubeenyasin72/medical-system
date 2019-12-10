@@ -33,12 +33,13 @@ class OrderOverview extends Component {
                   <td>Not Active</td>
                   <td>
                     <div class="dropdown">
-                      <a
+                      <span
+                        style={{ cursor: "pointer" }}
                         class="table-view-cursor-pointer text-primary dropdown-toggle"
                         data-toggle="dropdown"
                       >
                         Actions
-                      </a>
+                      </span>
                       <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">
                           Edit Details

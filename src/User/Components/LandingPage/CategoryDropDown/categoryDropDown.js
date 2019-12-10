@@ -212,7 +212,7 @@ class CategoryDropDown extends Component {
           </div>
         </div>
       </li>
-      <li class="align-right  cat-wide">
+      {/* <li class="align-right  cat-wide">
         <a href="#">Watches, Bags &amp; Jewelery</a>
         <div class="unnecessary-firefox-wrapper">
           <div class="menu-cont">
@@ -230,7 +230,7 @@ class CategoryDropDown extends Component {
             </ul>
           </div>
         </div>
-      </li>
+      </li> */}
       <li class="align-right cat-nosubcategory cat-wide">
         <a href="#">Other</a>
       </li>
