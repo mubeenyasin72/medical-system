@@ -9,9 +9,9 @@ class Header extends Component {
     return (
       <React.Fragment>
         <nav class="navbar navbar-expand-lg navbar-light bg-white user-header">
-          <a class="navbar-brand" style={{ marginLeft: "40px" }} href="#">
+          <Link class="navbar-brand" style={{ marginLeft: "40px" }} to="/">
             E-Shop
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -31,7 +31,7 @@ class Header extends Component {
                   <input
                     type="text"
                     class="form-control user-header-search-input"
-                    placeholder="Sport shoes"
+                    placeholder="Search..."
                     aria-label="Username"
                     aria-describedby="basic-addon1"
                   />
@@ -72,13 +72,19 @@ class Header extends Component {
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-12">
-                      <img
-                        alt="cart"
-                        class="user-header-cart-icon float-left"
-                        src={require("../../../../Assets/Icons/UserHeader/shopping-cart.svg")}
-                      />
-                      <span class="badge badge-pill badge-danger float-left">
-                        4
+                      <Link to="/User/Shopping_Cart">
+                        <img
+                          alt="cart"
+                          style={{ cursor: "pointer" }}
+                          class="user-header-cart-icon float-left"
+                          src={require("../../../../Assets/Icons/UserHeader/shopping-cart.svg")}
+                        />
+                      </Link>
+                      <span
+                        class="badge badge-pill float-left"
+                        style={{ backgroundColor: "#fbb03b", color: "#ffffff" }}
+                      >
+                        2
                       </span>
                     </div>
                   </div>
@@ -86,7 +92,7 @@ class Header extends Component {
               </li>
               <li class="nav-item user-header-wishlist">
                 <div class="container-fluid">
-                  <div class="row">
+                  <div class="row" style={{ cursor: "pointer" }}>
                     <div class="col-sm-3 col-md-1 col-lg-5 col-xl-5">
                       <img
                         alt="wishlist"

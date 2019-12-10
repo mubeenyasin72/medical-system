@@ -7,19 +7,34 @@ class OrderTracking extends Component {
     return (
       <React.Fragment>
         <div class="section">
-          <div class="container">
+          <h1 class="track-order-header">Track Your Order</h1>
+          <div class="order-track-container">
+            <div class="row">
+              <div class="col-4">
+                <input
+                  type="text"
+                  placeholder="Tracking Number"
+                  class="form-control order-tracking-text-field"
+                  style={{ marginBottom: "60px" }}
+                />
+              </div>
+              <div class="col-4">
+                <button class="btn track-order-button">Track Order</button>
+              </div>
+              <div class="col-4 "></div>
+            </div>
             <div class="border-s"></div>
             <div class="dashed">
               <div class="circle"></div>
               <div class="circle circle-c"></div>
               <div class="circle special sc">
-                <i class="fa fa-male fa-2x text-white"></i>
+                <i class="fa fa-male track-fa-male fa-2x text-white"></i>
               </div>
 
               <div class="circle special special-o">
-                <i class="fa fa-truck fa-2x text-white"></i>
+                <i class="fa fa-truck track-fa-truck fa-2x text-white"></i>
                 <div class="circle special specia-o specia-s">
-                  <i class="fa fa-shopping-bag fa-2x text-white text-center"></i>
+                  <i class="fa fa-shopping-bag track-fa-shopping-bag fa-2x text-white text-center"></i>
                 </div>
               </div>
             </div>

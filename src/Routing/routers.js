@@ -3,12 +3,19 @@ import history from "./history";
 import { Route, Switch, Router } from "react-router-dom";
 
 //          Importing UserSide Views
+import UserLandingPageView from "../User/Views/LandingPageView/landingPage";
+import UserSpecificProductView from "../User/Views/SpecificProductView/specificProductView";
+import UserCartView from "../User/Views/UserShoppingCart/userShoppingCart";
+import UserDeliveryAddressView from "../User/Views/UserAddressView/userAddressView";
+import UserOrderPaymentView from "../User/Views/UserOrderPaymentView/userOrderPayment";
 import UserLoginView from "../User/Views/LoginView/loginView";
 import UserSignUpView from "../User/Views/SignupView/signupView";
+import UserOrderTrackingView from "../User/Views/TrackingOrderView/trackOrder";
 import UserForgetPasswordView from "../User/Views/ForgotView/forgotView";
 import UserProfileView from "../User/Views/DashboardView/profileInfoView";
 import UserBillingInfoView from "../User/Views/DashboardView/billInfoView";
 import UserBankInfoView from "../User/Views/DashboardView/bankInfoView";
+import UserChatView from "../User/Views/UserChatView/userChatView";
 //          Importing Seller/Vendor Views
 import SellerLoginView from "../Seller/Views/LoginView/loginView";
 import SellerSignUpView from "../Seller/Views/SignupView/signupView";
@@ -38,6 +45,30 @@ class Routing extends Component {
 
             <Route
               exact
+              path="/"
+              render={props => <UserLandingPageView {...props} />}
+            />
+            <Route
+              path="/Specific_Product"
+              render={props => <UserSpecificProductView {...props} />}
+            />
+            <Route
+              path="/User/Chat"
+              render={props => <UserChatView {...props} />}
+            />
+            <Route
+              path="/User/Shopping_Cart"
+              render={props => <UserCartView {...props} />}
+            />
+            <Route
+              path="/User/Delivery_Address"
+              render={props => <UserDeliveryAddressView {...props} />}
+            />
+            <Route
+              path="/User/Order_Summary"
+              render={props => <UserOrderPaymentView {...props} />}
+            />
+            <Route
               path="/User/Login"
               render={props => <UserLoginView {...props} />}
             />
@@ -52,6 +83,10 @@ class Routing extends Component {
             <Route
               path="/User/Profile"
               render={props => <UserProfileView {...props} />}
+            />
+            <Route
+              path="/User/Track_Order"
+              render={props => <UserOrderTrackingView {...props} />}
             />
             <Route
               path="/User/Bank_Information"

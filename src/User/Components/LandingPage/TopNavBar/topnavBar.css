@@ -1,0 +1,117 @@
+.top-nav {
+  height: 30px;
+  width: 100%;
+  background-color: #fbb03b;
+  position: relative;
+  text-align: center;
+}
+
+.top-nav > .top-nav-header {
+  display: inline;
+}
+
+.top-nav > .top-nav-header > .top-nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  visibility: hidden;
+}
+
+.top-nav > .top-nav-btn {
+  display: none;
+}
+
+.top-nav > .top-nav-links {
+  display: inline;
+  font-size: 12px;
+  float: right;
+  margin-right: 3%;
+}
+
+.top-nav > .top-nav-links > .top-nav-a {
+  display: inline-block;
+  padding: 6px 20px 13px 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top-nav > .top-nav-links > .top-nav-a:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.top-nav > #top-nav-check {
+  display: none;
+}
+@media (max-width: 710px) {
+  .top-nav {
+    visibility: hidden;
+    display: none;
+  }
+  .top-nav-a {
+    visibility: hidden;
+    display: none;
+  }
+  .top-nav-btn {
+    visibility: hidden;
+  }
+  .top-nav-header {
+    visibility: hidden;
+    display: none;
+  }
+  .top-nav-links {
+    visibility: hidden;
+    display: none;
+  }
+  .top-nav-title {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .top-nav > .top-nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .top-nav > .top-nav-btn > .top-nav-label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .top-nav > .top-nav-btn > .top-nav-label:hover,
+  .top-nav #top-nav-check:checked ~ .top-nav-btn > .top-nav-label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .top-nav > .top-nav-btn > .top-nav-label > .top-nav-span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .top-nav > .top-nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .top-nav > .top-nav-links > .top-nav-a {
+    display: block;
+    width: 100%;
+  }
+  .top-nav > #top-nav-check:not(:checked) ~ .top-nav-links {
+    height: 0px;
+  }
+  .top-nav > #top-nav-check:checked ~ .top-nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+} */

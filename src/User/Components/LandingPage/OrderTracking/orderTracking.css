@@ -1,14 +1,57 @@
+.track-order-header {
+  text-align: center;
+  color: #ffffff;
+  margin-top: -8%;
+  margin-bottom: 7%;
+  text-shadow: -1px -1px 0 #fbb03b, 1px -1px 0 #fbb03b, -1px 1px 0 #fbb03b,
+    1px 1px 0 #fbb03b;
+}
+.order-tracking-text-field {
+  border-radius: 0px;
+  border: 1px solid #fbb03b;
+  outline: none;
+  font-size: 14px;
+  padding: 22px;
+}
+.order-tracking-text-field:focus {
+  border: 1px solid #fbb03b;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.order-tracking-text-field::placeholder {
+  font-size: 13px;
+  /* padding: 40px; */
+}
+.track-order-button {
+  background-color: #fbb03b;
+  border-radius: 0px;
+  color: #ffffff;
+  padding: 10px;
+}
+.track-order-button:hover {
+  color: #ffffff;
+  /* background-color: #fbb03b; */
+}
+.track-order-button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 .section {
   background: #ffffff;
-  padding: 5em 0;
-  /* border-bottom: 3px solid #ddd; */
+  padding: 12em 0;
   position: relative;
-  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width: 100%;
-  height: 230px;
+  min-width: 1400px;
+  height: 550px;
+  background-color: #eee;
 }
 .track-your-order {
   width: 100%;
+  min-width: 1400px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -21,8 +64,9 @@
   cursor: pointer;
 }
 
-.container {
+.order-track-container {
   width: 80%;
+  min-width: 1200px;
   margin: auto;
   padding-left: 4em;
 }
@@ -63,7 +107,7 @@
   height: 50px;
   background-color: #ddd;
 }
-.fa-male {
+.track-fa-male {
   text-align: center;
   width: 100%;
   padding-top: 9px;
@@ -74,7 +118,7 @@
 .special-o {
   left: 58%;
 }
-.fa-truck {
+.track-fa-truck {
   width: 100%;
   text-align: center;
   padding-top: 9px;
@@ -84,7 +128,7 @@
   left: 500%;
   top: 0;
 }
-.fa-shopping-bag {
+.track-fa-shopping-bag {
   width: 100%;
   padding-top: 6px;
 }

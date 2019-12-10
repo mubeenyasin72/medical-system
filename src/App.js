@@ -1,7 +1,6 @@
 import React from "react";
 import Routers from "./Routing/routers";
-import User from "./User/Components/LandingPage/OrderTracking/orderTracking";
-
+import LandingPage from "./User/Components/Cart/summary";
 import "./App.css";
 
 function App() {

@@ -1,0 +1,267 @@
+.cart-heading{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.cart-stepper-step-round-container-current{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FBB03B;
+}
+
+.cart-stepper-step-round-container-next{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.cart-stepper-step-round-container-done{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #FBB03B;
+}
+
+.cart-stepper-step-hr{
+    border: 1px solid #EFEFEF;
+    width: 100%;
+}
+
+.cart-stepper-icon{
+    width: 20px;
+    margin: 7px 0 0 7px;
+}
+
+.cart-product-table{
+    width: 100%;
+    margin: 3% 0 0 0;
+
+}
+
+.cart-product-table-th{
+    text-align: left;
+    color: #C2C2C2;
+    font-weight: 400;
+}
+
+.cart-product-table-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.cart-product-table-product-name{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+
+.cart-product-table-product-id{
+    font-size: 10px;
+    color: #C7C7C7;
+    font-weight: 600;
+}
+
+.cart-product-table-product-color{
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.cart-product-table-product-size{
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.cart-product-table-product-amount-container{
+    border-radius: 20px;
+    border: 1px solid #D8D8D8;
+    width: 100px;
+}
+
+.cart-product-table-product-amount-btn{
+    width: 40px;
+}
+
+.cart-product-table-product-amount-btn-icon{
+    width: 11px;
+}
+
+.cart-product-table-product-price{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.cart-product-table-product-remove{
+    width: 10px;
+    margin: 10px 0 0 0;
+}
+
+.cart-product-promo-code{
+    border-radius: 20px;
+    border-right: none;
+}
+
+.cart-product-promo-code-icon{
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0 !important;
+    border-left: none;
+}
+
+.cart-product-promo-code-img{
+    width: 15px;
+    margin: 0 10px 0 0;
+}
+
+.cart-product-total-cost-title{
+    font-size: 13px;
+}
+
+.cart-product-total-cost{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 0 0 30px;
+}
+
+.cart-product-continue-shopping-btn{
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+    font-size: 9px;
+    font-weight: 800;
+    height: 35px;
+    width: 150px;
+    float: right;
+}
+
+.cart-product-continue-next-btn{
+    border-radius: 20px;
+    font-size: 9px;
+    font-weight: 800;
+    height: 35px;
+    background-color: #FBB03B;
+    float: left;
+}
+
+.cart-delivery-input-label{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.cart-delivery-back-btn{
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.cart-delivery-back-icon{
+    width: 18px;
+    margin: 0 20px 0 0;
+
+}
+
+.cart-summary-heading{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cart-summary-payment-container{
+    border-radius: 25px;
+    border: 1px solid #D8D8D8;
+    height: 60px;
+}
+
+.cart-summary-payment-paypal-logo{
+    width: 90px;
+    height: 25px;
+    margin: -10px 0 0 0;
+    opacity: 0.5;
+}
+
+.cart-summary-payment-visa-logo{
+    width: 60px;
+    opacity: 0.5;
+    margin: -20px 0 0 0;
+}
+
+.cart-summary-payment-mastercard-logo{
+    width: 50px;
+    margin: -10px 0 0 0;
+}
+
+.cart-summary-method-body{
+    width: 50%;
+    margin: 30px auto 0 auto;
+    border-radius: 15px;
+    border: 1px solid #FBB03B;
+    height: 200px;
+}
+
+.cart-summary-method-dpd-logo{
+    width: 100px;
+}
+
+.cart-summary-method-price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-summary-cash-on-delivery{
+    font-size: 12px;
+    color: #A4A4A4;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cart-summary-cash-on-delviery-change-btn{
+    position: absolute;
+    bottom: -20px;
+    left: 35px;
+}
+
+.cart-summary-address-body{
+    margin: 30px auto 0 auto;
+    height: 200px;
+}
+
+.cart-summary-address-text{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0 0 0;
+}
+
+.cart-summary-address-btn{
+    position: absolute;
+    bottom: -70px;
+    color: #8B8B8B;
+}
+
+.cart-summary-your-cart-qty{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 9px 0 0 0;
+}
+
+.cart-summary-total-cost-body{
+    width: 300px;
+    height: 50px;
+    background-color: #F1F1F1;
+    border-radius: 25px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.cart-summary-total-cost-text{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cart-summary-total-cost-amount{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
