@@ -7,10 +7,61 @@ import InputField from "../../../../BasicComponents/FormGroup/Inputs/User/BasicI
 import FBLoginButton from "../../../../BasicComponents/FormGroup/Buttons/FBLoginButton/fbLoginButton";
 import GoogleLoginButton from "../../../../BasicComponents/FormGroup/Buttons/GoogleLoginButton/googleLoginButton";
 import PrimaryButton from "../../../../BasicComponents/FormGroup/Buttons/PrimaryButton/primaryButton";
+import {connect} from 'react-redux';
+import {loginUserFunction} from '../../../Actions/actions';
+import LoginClass from '../../../BusinessLogistics/loginClass';
+
+
+
+
+
+
+const validEmailRegex = RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
 
 class Login extends Component {
-  state = {};
+  state = {
+    loading:false,
+    email:null,
+    password:null,
+    errors:{
+      email:"",
+      password:""
+    }
+  };
+  handleChange = (event) => {
+    event.preventDefault();
+    const { name, value } = event.target;
+    const errors = this.state.errors;  
+    switch (name) {
+      case 'email': 
+        errors.email = 
+          validEmailRegex.test(value)
+            ? ''
+            : 'Email is not valid!';
+        break;
+        case 'password': 
+        errors.password = 
+        value.length < 8
+        ? 'Password must be 8 characters long!'
+        : '';
+        
+        break;
+      default:
+        break;
+    }
+  
+    this.setState({errors, [name]: value}, ()=> {
+        
+    })
+  }
+
+
+
+
+
+
   render() {
+    const {errors} = this.state;
     return (
       <React.Fragment>
         <div class="container-fluid">
@@ -33,15 +84,20 @@ class Login extends Component {
           <div class="row mt-2">
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-10 col-xl-10 col-xl-10">
-              <InputField placeholder="E-mail" />
+            <InputField placeholder="Email" name='email' type="email" onChange={
+                   this.handleChange
+                  } value={this.state.email} />
+                
             </div>
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
           <div class="row mt-3">
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-10 col-xl-10 col-xl-10">
-              <InputField placeholder="Password" type="password" />
-            </div>
+              <InputField placeholder="Password" type="password" onChange={this.handleChange} name='password'
+              value={this.state.password}/>
+              
+          </div>
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
           <div class="row mt-3">
@@ -104,9 +160,50 @@ class Login extends Component {
           <div class="row mt-3">
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
             <div class="col-12 col-sm-12 col-md-10 col-xl-10 col-xl-10 text-center">
-              <Link to="/User/Profile">
-                <PrimaryButton text="Login" />
-              </Link>
+           {
+            
+            console.log(this.props.loginfail12345,"Api Responce Of Login Data Data"),
+                this.props.loginfail12345 ? (
+                  <span style={{ fontSize: "11px", color: "red" }}>
+                    {this.props.loginfail12345}
+                  </span>
+                ) : ""
+               
+                 
+                }
+                <PrimaryButton
+                  onClick = {()=>
+                    {
+                      if (!this.state.loading) {
+                        this.setState(
+                          {
+                            loading: true
+                          },
+                          () => {
+                            this.timer = setTimeout(() => {}, this.state.loading === false);
+                            this.props.loginUserFunction(
+                              new LoginClass(
+                                this.state.email,
+                                this.state.password
+                              ),
+                              this
+                              );
+                          }
+                        );
+                      }
+
+                   }
+
+                  }
+                
+                >
+                 {this.state.loading && (
+                    <i class="spinner-border text-dark spinner-border-sm" role="status" />
+                  )}
+                          
+                    {this.state.loading && <span>Logging In</span>}
+                    {!this.state.loading && <span>Login</span>}
+                </PrimaryButton>
             </div>
             <div class="col-0 col-sm-0 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
@@ -130,5 +227,8 @@ class Login extends Component {
     );
   }
 }
+const mapStateToProps = state=>({
+  loginfail12345:state.MainReducer.loginfail,
 
-export default Login;
+})
+export default connect(mapStateToProps,{loginUserFunction}) (Login);

@@ -10,7 +10,7 @@ class PrimaryButton extends Component {
         onClick={this.props.onClick ? this.props.onClick : () => false}
         style={{ width: this.props.width ? this.props.width : "100%" }}
       >
-        {this.props.text ? this.props.text : "Button"}
+        {this.props.children ? this.props.children : "Button"}
       </button>
     );
   }

@@ -12,6 +12,9 @@ import UserLoginView from "../User/Views/LoginView/loginView";
 import UserSignUpView from "../User/Views/SignupView/signupView";
 import UserOrderTrackingView from "../User/Views/TrackingOrderView/trackOrder";
 import UserForgetPasswordView from "../User/Views/ForgotView/forgotView";
+import UserSendCodeView from '../User/Views/ForgotView/sendCodeView';
+import UpdatePasswordView from '../User/Views/ForgotView/changePasswordView';
+import ForgetPasswordView from '../User/Views/ForgotView/forgotView';
 import UserProfileView from "../User/Views/DashboardView/profileInfoView";
 import UserBillingInfoView from "../User/Views/DashboardView/billInfoView";
 import UserBankInfoView from "../User/Views/DashboardView/bankInfoView";
@@ -47,6 +50,18 @@ class Routing extends Component {
               exact
               path="/"
               render={props => <UserLandingPageView {...props} />}
+            />
+            <Route
+              path="/User/Send_Code"
+              render={props => <UserSendCodeView {...props} />}
+            />
+             <Route
+              path="/User/Change_Password"
+              render={props => <UpdatePasswordView {...props} />}
+            />
+            <Route
+              path="/User/Forget_Password"
+              render={props => <ForgetPasswordView {...props} />}
             />
             <Route
               path="/Specific_Product"
